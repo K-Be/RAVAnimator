@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		117142067D5938FA177830E6 /* Pods-RAVAnimator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAVAnimator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAVAnimator_Tests/Pods-RAVAnimator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1A20D4E5D0D83B5A12DE7B42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1A20D4E5D0D83B5A12DE7B42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		27FD0EBF971286E55B09259F /* Pods-RAVAnimator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAVAnimator_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAVAnimator_Example/Pods-RAVAnimator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RAVAnimator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAVAnimator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		75B7A712CF473160F87C5D96 /* Pods_RAVAnimator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAVAnimator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9A4E44F2ABAB5B4E7B0916E /* Pods-RAVAnimator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAVAnimator_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAVAnimator_Example/Pods-RAVAnimator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C998A8C10C2E3EA3476F7540 /* Pods_RAVAnimator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAVAnimator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2F37F25D30D3FFC1BB4E101 /* RAVAnimator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RAVAnimator.podspec; path = ../RAVAnimator.podspec; sourceTree = "<group>"; };
+		D2F37F25D30D3FFC1BB4E101 /* RAVAnimator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RAVAnimator.podspec; path = ../RAVAnimator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F44A25789705EA0FD09BB2C5 /* Pods-RAVAnimator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAVAnimator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAVAnimator_Tests/Pods-RAVAnimator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F4A4FAFCEEE08E43A2D51DE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F4A4FAFCEEE08E43A2D51DE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
