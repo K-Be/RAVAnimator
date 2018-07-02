@@ -14,6 +14,7 @@ import QuartzCore
 	typealias AnimationsArray = Array<Animation>
 	var animations = AnimationsArray()
 	weak var displayLink : CADisplayLink?
+	var complitionBlock : (() -> Void)?
 	
 	@objc public override init(){
 		super.init()
@@ -88,8 +89,20 @@ import QuartzCore
 		}
 		
 		animationsToRemove.forEach { (animation) in
+			if let animationComplition = animation.complition {
+				animationComplition()
+			}
+			
 		 	let removedAnimation = self.animations.removeIdentity(object: animation)
 			assert(removedAnimation != nil, "can't find animation in the animations array")
+		}
+		
+		self.invalidateIfNoAnimations()
+				
+		if let complition = self.complitionBlock {
+			if self.animations.count == 0 {
+				complition()
+			}
 		}
 	}
 	

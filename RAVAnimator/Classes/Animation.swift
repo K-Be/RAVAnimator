@@ -13,6 +13,7 @@ import Foundation
 	
 	@objc public var duration : TimeInterval
 	@objc public var callWithZero = false
+	@objc public var complition : (() -> Void)?
 	
 	@objc public init(withDuration duration: TimeInterval) {
 		self.duration = duration
