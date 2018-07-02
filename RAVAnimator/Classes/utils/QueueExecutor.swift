@@ -21,6 +21,16 @@ public class QueueExecutor {
 		
 	}
 	
+	
+	public static func execImmidiateOnMainThread(block: @escaping () -> Void) {
+		if Thread.isMainThread{
+			block()
+		}
+		else {
+			DispatchQueue.main.async(execute: block)
+		}
+	}
+	
 }
 
 
