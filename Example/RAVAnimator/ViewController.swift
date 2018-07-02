@@ -7,18 +7,33 @@
 //
 
 import UIKit
+import RAVAnimator
+
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+	@IBOutlet var movingView : UIView!
+	@IBOutlet var destinationPositionView : UIView!
+	@IBOutlet var slider : UISlider!
+	
+	override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
+  override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
+	func scheduleViewAnimations() {
+		
+	}
+	
+	
+	func scheduleSliderAnimation() {
+		
+	}
+	
 }
 

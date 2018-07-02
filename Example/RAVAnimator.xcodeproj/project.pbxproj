@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		036F7BFB5227A7CDD3169B2A /* Pods_RAVAnimator_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C998A8C10C2E3EA3476F7540 /* Pods_RAVAnimator_Example.framework */; };
 		22A945526C2DA3142E3E560F /* Pods_RAVAnimator_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B7A712CF473160F87C5D96 /* Pods_RAVAnimator_Tests.framework */; };
+		491210A420E9F6BE00D78046 /* TestLinearValuesConvertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491210A320E9F6BE00D78046 /* TestLinearValuesConvertor.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		117142067D5938FA177830E6 /* Pods-RAVAnimator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAVAnimator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAVAnimator_Tests/Pods-RAVAnimator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1A20D4E5D0D83B5A12DE7B42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		27FD0EBF971286E55B09259F /* Pods-RAVAnimator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAVAnimator_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAVAnimator_Example/Pods-RAVAnimator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		491210A320E9F6BE00D78046 /* TestLinearValuesConvertor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLinearValuesConvertor.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RAVAnimator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAVAnimator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				491210A320E9F6BE00D78046 /* TestLinearValuesConvertor.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -351,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				491210A420E9F6BE00D78046 /* TestLinearValuesConvertor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
