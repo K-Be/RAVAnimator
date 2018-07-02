@@ -1,5 +1,5 @@
 //
-//  LinearValuesConvertor.swift
+//  LinearValuesConverter.swift
 //  RAVAnimator
 //
 //  Created by Andrew Romanov on 02/07/2018.
@@ -8,9 +8,10 @@
 import Foundation
 
 
-@objc public class LinearValuesConvertor: NSObject, ValuesConvertorP {
-				public typealias TypeDestination = Double
-				public typealias TypeSource = Double
+@objc public class LinearValuesConverter: NSObject, ValuesConverterP {
+	
+	public typealias TypeDestination = Double
+	public typealias TypeSource = Double
 	
 	@objc public var sourceMin = 0.0
 	@objc public var sourceMax = 1.0

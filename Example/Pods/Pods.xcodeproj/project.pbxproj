@@ -18,8 +18,8 @@
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		43136FBCBF3CB1DF17E8CE7F8EA3F701 /* RAVAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D3B75709A92C588106B11F9A6319D7 /* RAVAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4912109720E8AEB600D78046 /* Array+ObjectsOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912109620E8AEB600D78046 /* Array+ObjectsOperations.swift */; };
-		491210A120E9EB0900D78046 /* LinearValuesConvertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912109F20E9EB0900D78046 /* LinearValuesConvertor.swift */; };
-		491210A220E9EB0900D78046 /* ValuesConvertorP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491210A020E9EB0900D78046 /* ValuesConvertorP.swift */; };
+		491210A120E9EB0900D78046 /* LinearValuesConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912109F20E9EB0900D78046 /* LinearValuesConverter.swift */; };
+		491210A220E9EB0900D78046 /* ValuesConverterP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491210A020E9EB0900D78046 /* ValuesConverterP.swift */; };
 		491210A620E9F8AE00D78046 /* AnimationOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491210A520E9F8AE00D78046 /* AnimationOperation.swift */; };
 		491210A820E9FB7300D78046 /* AsynchronousOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491210A720E9FB7300D78046 /* AsynchronousOperation.swift */; };
 		491210AA20EA047E00D78046 /* QueueExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491210A920EA047E00D78046 /* QueueExecutor.swift */; };
@@ -93,8 +93,8 @@
 		433C8456B074ADFA86A481F65BFED50B /* Pods-RAVAnimator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RAVAnimator_Tests-dummy.m"; sourceTree = "<group>"; };
 		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		4912109620E8AEB600D78046 /* Array+ObjectsOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Array+ObjectsOperations.swift"; path = "RAVAnimator/Classes/Array+ObjectsOperations.swift"; sourceTree = "<group>"; };
-		4912109F20E9EB0900D78046 /* LinearValuesConvertor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearValuesConvertor.swift; sourceTree = "<group>"; };
-		491210A020E9EB0900D78046 /* ValuesConvertorP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValuesConvertorP.swift; sourceTree = "<group>"; };
+		4912109F20E9EB0900D78046 /* LinearValuesConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearValuesConverter.swift; sourceTree = "<group>"; };
+		491210A020E9EB0900D78046 /* ValuesConverterP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValuesConverterP.swift; sourceTree = "<group>"; };
 		491210A520E9F8AE00D78046 /* AnimationOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOperation.swift; sourceTree = "<group>"; };
 		491210A720E9FB7300D78046 /* AsynchronousOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynchronousOperation.swift; sourceTree = "<group>"; };
 		491210A920EA047E00D78046 /* QueueExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueExecutor.swift; sourceTree = "<group>"; };
@@ -255,8 +255,8 @@
 		4912109E20E9EB0900D78046 /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				4912109F20E9EB0900D78046 /* LinearValuesConvertor.swift */,
-				491210A020E9EB0900D78046 /* ValuesConvertorP.swift */,
+				4912109F20E9EB0900D78046 /* LinearValuesConverter.swift */,
+				491210A020E9EB0900D78046 /* ValuesConverterP.swift */,
 				491210A520E9F8AE00D78046 /* AnimationOperation.swift */,
 				491210A720E9FB7300D78046 /* AsynchronousOperation.swift */,
 				491210A920EA047E00D78046 /* QueueExecutor.swift */,
@@ -553,12 +553,12 @@
 				491210AA20EA047E00D78046 /* QueueExecutor.swift in Sources */,
 				4912109720E8AEB600D78046 /* Array+ObjectsOperations.swift in Sources */,
 				491210AC20EA074E00D78046 /* BlockAnimation.swift in Sources */,
-				491210A220E9EB0900D78046 /* ValuesConvertorP.swift in Sources */,
+				491210A220E9EB0900D78046 /* ValuesConverterP.swift in Sources */,
 				B7DB30F60EE4DD11BDE8E20EB2C44405 /* Animation.swift in Sources */,
 				491210A820E9FB7300D78046 /* AsynchronousOperation.swift in Sources */,
 				80DEAEDB2A9B3258D2B065835412B02C /* Animator.swift in Sources */,
 				491210A620E9F8AE00D78046 /* AnimationOperation.swift in Sources */,
-				491210A120E9EB0900D78046 /* LinearValuesConvertor.swift in Sources */,
+				491210A120E9EB0900D78046 /* LinearValuesConverter.swift in Sources */,
 				BB5852608F160944EB0C6949B26F7D87 /* RAVAnimator-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

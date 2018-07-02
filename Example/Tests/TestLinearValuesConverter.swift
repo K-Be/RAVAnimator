@@ -1,5 +1,5 @@
 //
-//  TestLinearValuesConvertor.swift
+//  TestLinearValuesConverter.swift
 //  RAVAnimator_Tests
 //
 //  Created by Andrew Romanov on 02/07/2018.
@@ -10,7 +10,7 @@ import XCTest
 import RAVAnimator
 
 
-class TestLinearValuesConvertor: XCTestCase {
+class TestLinearValuesConverter: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -23,7 +23,7 @@ class TestLinearValuesConvertor: XCTestCase {
     }
     
 	func testConvertion() {
-		let convertor = LinearValuesConvertor()
+		let convertor = LinearValuesConverter()
 		convertor.destinationMax = 2.0
 		
 		XCTAssertEqual(convertor.convertSourceToDestination(source: 0.5), 1.0)

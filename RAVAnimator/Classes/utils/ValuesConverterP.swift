@@ -1,5 +1,5 @@
 //
-//  ValuesConvertorP.swift
+//  ValuesConverterP.swift
 //  RAVAnimator
 //
 //  Created by Andrew Romanov on 02/07/2018.
@@ -8,7 +8,7 @@
 import Foundation
 
 
-public protocol ValuesConvertorP {
+public protocol ValuesConverterP {
 	
 	associatedtype TypeDestination
 	associatedtype TypeSource
