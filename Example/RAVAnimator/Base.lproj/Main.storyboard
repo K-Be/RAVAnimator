@@ -21,23 +21,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="80c-wQ-OPe">
+                                <rect key="frame" x="291" y="535" width="53" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ARE-0r-irC">
                                 <rect key="frame" x="19" y="70" width="53" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="80c-wQ-OPe">
-                                <rect key="frame" x="285" y="467" width="53" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Hdc-E3-Qbf">
-                                <rect key="frame" x="18" y="592" width="336" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Hdc-E3-Qbf">
+                                <rect key="frame" x="18" y="602" width="339" height="31"/>
                             </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NyR-qy-7k1">
+                                <rect key="frame" x="171" y="34" width="34" height="30"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="startActionWithSender:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hSG-lX-UNx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NyR-qy-7k1" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="14" id="3TE-K8-52a"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Hdc-E3-Qbf" secondAttribute="bottom" constant="35" id="85a-H9-4jS"/>
+                            <constraint firstAttribute="trailing" secondItem="Hdc-E3-Qbf" secondAttribute="trailing" constant="20" id="KEF-ER-UhA"/>
+                            <constraint firstItem="NyR-qy-7k1" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="e06-p0-khO"/>
+                            <constraint firstItem="Hdc-E3-Qbf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="hN6-NM-DUQ"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="destinationPositionView" destination="80c-wQ-OPe" id="rOT-q6-X3k"/>
+                        <outlet property="movingView" destination="ARE-0r-irC" id="Bud-LN-CDe"/>
+                        <outlet property="slider" destination="Hdc-E3-Qbf" id="as9-C1-f1r"/>
+                        <outlet property="startButton" destination="NyR-qy-7k1" id="dkg-e3-IDt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
