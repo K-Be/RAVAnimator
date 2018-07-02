@@ -20,21 +20,20 @@ import Foundation
 	
 	@objc public func convertSourceToDestination(source: TypeSource) -> TypeDestination
 	{
-		guard sourceMin != sourceMax && destinationMin != destinationMax else {
-			assert(false, "must not be equal borders")
-			return destinationMin;
+		guard sourceMin != sourceMax && destinationMax != destinationMin else {
+			return destinationMin
 		}
 		
 		let result = ((source - sourceMin) / (sourceMax - sourceMin)) * (destinationMax - destinationMin) + destinationMin
+		
 		return result
 	}
 	
 	
 	@objc public func convertDestiantionToSource(destination: TypeDestination) -> TypeSource
 	{
-		guard sourceMin != sourceMax && destinationMin != destinationMax else {
-			assert(false, "must not be equal borders")
-			return destinationMin;
+		guard sourceMin != sourceMax && destinationMax != destinationMin else {
+			return sourceMin
 		}
 		
 		let result = ((destination - destinationMin) / (destinationMax - destinationMin)) * (sourceMax - sourceMin) + sourceMin		

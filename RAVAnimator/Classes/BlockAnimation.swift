@@ -19,6 +19,7 @@ import UIKit
 	}
 	
 	open override func update(withTime time: TimeInterval) {
+		super.update(withTime: time)
 		self.animation(time)
 	}
 }

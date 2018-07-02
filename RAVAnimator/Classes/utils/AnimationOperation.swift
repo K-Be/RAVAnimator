@@ -22,7 +22,6 @@ import UIKit
 	override open func main() {
 		super.main()
 		guard !self.isCancelled else {
-			
 			return
 		}
 		
