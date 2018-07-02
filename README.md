@@ -17,12 +17,12 @@ RAVAnimator is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'RAVAnimator'
+pod 'RAVAnimator', :git=>'https://github.com/K-Be/RAVAnimator', :tag=>'0.1'
 ```
 
 ## Author
 
-K-Be, scalli-k-be@ya.ru
+Andrew, scalli-k-be@ya.ru
 
 ## License
 
