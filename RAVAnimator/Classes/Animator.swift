@@ -27,7 +27,7 @@ import QuartzCore
 		if (displayLink == nil)
 		{
 			let link = CADisplayLink(target: self, selector: #selector(updateAction(sender:)));
-			link.add(to: RunLoop.main, forMode: .commonModes);
+			link.add(to: RunLoop.main, forMode: RunLoop.Mode.common);
 			
 			self.displayLink = link
 		}

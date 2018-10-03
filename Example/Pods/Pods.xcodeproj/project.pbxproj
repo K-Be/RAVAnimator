@@ -7,46 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0090DF8BE89CAB914DD2EBA88BC16404 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
 		13691761D87B9E096E81D1D58A6B055F /* Pods-RAVAnimator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BA432ABF8CFD8A6C6F7814F189462E /* Pods-RAVAnimator_Example-dummy.m */; };
-		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		1E677C08DA725CEB42846586D6540819 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
-		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		43136FBCBF3CB1DF17E8CE7F8EA3F701 /* RAVAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D3B75709A92C588106B11F9A6319D7 /* RAVAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4912109720E8AEB600D78046 /* Array+ObjectsOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912109620E8AEB600D78046 /* Array+ObjectsOperations.swift */; };
-		491210A120E9EB0900D78046 /* LinearValuesConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912109F20E9EB0900D78046 /* LinearValuesConverter.swift */; };
-		491210A220E9EB0900D78046 /* ValuesConverterP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491210A020E9EB0900D78046 /* ValuesConverterP.swift */; };
-		491210A620E9F8AE00D78046 /* AnimationOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491210A520E9F8AE00D78046 /* AnimationOperation.swift */; };
-		491210A820E9FB7300D78046 /* AsynchronousOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491210A720E9FB7300D78046 /* AsynchronousOperation.swift */; };
-		491210AA20EA047E00D78046 /* QueueExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491210A920EA047E00D78046 /* QueueExecutor.swift */; };
-		491210AC20EA074E00D78046 /* BlockAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491210AB20EA074E00D78046 /* BlockAnimation.swift */; };
-		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
-		56016FDC2BAB00FCF9907B356490EE38 /* Pods-RAVAnimator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 433C8456B074ADFA86A481F65BFED50B /* Pods-RAVAnimator_Tests-dummy.m */; };
-		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
-		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
-		80DEAEDB2A9B3258D2B065835412B02C /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB902F0C9F68EBB73D86D99614F428F3 /* Animator.swift */; };
+		1C5489E20C01816076737C21F8FBAE7D /* RAVAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCA0D56B7CCEA1E7AE08FCA1E960F5 /* RAVAnimator-dummy.m */; };
+		1E677C08DA725CEB42846586D6540819 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		2708A7DCEB92F71C7FF9EC83ABF2D607 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		276986F209310DBDE18C39EBF47DB4EC /* ValuesConverterP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27100BD7258B3FD4EAF1834A265A2CA0 /* ValuesConverterP.swift */; };
+		336E6BB3DB05039AC1A539DC8D310106 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E019E76FA96A8469751FB313BBA7BAB /* Animator.swift */; };
+		35FE6833F60E2AB8C0326D68EAADB881 /* Array+ObjectsOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A395EC8304B6D55579194A1BB135984D /* Array+ObjectsOperations.swift */; };
+		412A171267CB3B71BED853297E2E5C9A /* QueueExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE980603422112C340F3906D63F5CF5 /* QueueExecutor.swift */; };
+		43136FBCBF3CB1DF17E8CE7F8EA3F701 /* RAVAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 408F5788E61E0FAD254C99663E3243B2 /* RAVAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BC6D3C75EBFC261125EC24F8B80802F /* AnimationOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E508B3708E6EE082F368E5F775352 /* AnimationOperation.swift */; };
 		82CEA201242579586DB51104540BDC4B /* Pods-RAVAnimator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC351E8E0930D721C4AF430CC342FDD /* Pods-RAVAnimator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
-		8AD9CC394ACE1BF4FAFB01C95A45855D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		90871E42E2FBF1EACF71C8AE5897632C /* Pods-RAVAnimator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B057951414739D5B57C10FF957AA8D61 /* Pods-RAVAnimator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
-		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7DB30F60EE4DD11BDE8E20EB2C44405 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58507F543501738068C42766EF4D35F4 /* Animation.swift */; };
-		BB5852608F160944EB0C6949B26F7D87 /* RAVAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFAEF91E6CE041DF8F07DA84EB37146 /* RAVAnimator-dummy.m */; };
-		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
-		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		F6BABB3B5CC0207B810A10507DD03809 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
+		87B9BCB44435946E199E3DEA3D40D3E7 /* Pods-RAVAnimator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B057951414739D5B57C10FF957AA8D61 /* Pods-RAVAnimator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AD9CC394ACE1BF4FAFB01C95A45855D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		90B40BE8505452B3A82EADDAE66EE50B /* BlockAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986D061AAB256ACCBA050B5F855C0A22 /* BlockAnimation.swift */; };
+		CAC356DED94FF774F438CDA5373B78C1 /* Pods-RAVAnimator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 433C8456B074ADFA86A481F65BFED50B /* Pods-RAVAnimator_Tests-dummy.m */; };
+		E9FA1D2AD98F184252EF0B75C6608AA4 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8BBD09339784EA51D4ADA72788E7A7 /* Animation.swift */; };
+		F6BABB3B5CC0207B810A10507DD03809 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */; };
+		F7EF46A8BF86D30CCCF00A16103E25FB /* LinearValuesConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A0192861DBF7DD84DAE721B90B6479 /* LinearValuesConverter.swift */; };
+		FE0C291AF3720D080A8DDDAFD0D6D8F0 /* AsynchronousOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602AE2524E1176C037B1AE335624FAF1 /* AsynchronousOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,119 +36,69 @@
 			remoteGlobalIDString = 72F4FB419C190A17197DA393FE68924B;
 			remoteInfo = RAVAnimator;
 		};
-		A519D0EA7B135FB1DEB7CC25C144B4D4 /* PBXContainerItemProxy */ = {
+		AC0C21906ABC1F7118DA0706338565F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4378AA4A4165023712371D93F049B3D1;
 			remoteInfo = "Pods-RAVAnimator_Example";
 		};
-		B9EFD8CC8E1110ABD429CD629CA29D53 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
-			remoteInfo = FBSnapshotTestCase;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02BA432ABF8CFD8A6C6F7814F189462E /* Pods-RAVAnimator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RAVAnimator_Example-dummy.m"; sourceTree = "<group>"; };
-		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		0656012A91F50C6279E8B1EC683FC81B /* Pods_RAVAnimator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAVAnimator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9D1CB86B9F74D72094B2FEC0C58A1C /* Pods-RAVAnimator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RAVAnimator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0AAA3797ACA86A2CAAF37631AC9018C5 /* RAVAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAVAnimator.xcconfig; sourceTree = "<group>"; };
-		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		0FE412FE0A92966D9398C902BA424AC0 /* RAVAnimator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RAVAnimator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		0B5E508B3708E6EE082F368E5F775352 /* AnimationOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationOperation.swift; sourceTree = "<group>"; };
 		1682396846D766D691FBBBAEE1C3FB0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AA2CD30B7C0E3A0B400D70DE546D80E /* Pods_RAVAnimator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAVAnimator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		430F801F91BD7340A8B52A0C4D6A0238 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		20A0192861DBF7DD84DAE721B90B6479 /* LinearValuesConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LinearValuesConverter.swift; sourceTree = "<group>"; };
+		27100BD7258B3FD4EAF1834A265A2CA0 /* ValuesConverterP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ValuesConverterP.swift; sourceTree = "<group>"; };
+		36F0E081965F4B283DE73FC84DC1AC5C /* RAVAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAVAnimator-prefix.pch"; sourceTree = "<group>"; };
+		408F5788E61E0FAD254C99663E3243B2 /* RAVAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAVAnimator-umbrella.h"; sourceTree = "<group>"; };
 		433C8456B074ADFA86A481F65BFED50B /* Pods-RAVAnimator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RAVAnimator_Tests-dummy.m"; sourceTree = "<group>"; };
-		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		4912109620E8AEB600D78046 /* Array+ObjectsOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Array+ObjectsOperations.swift"; path = "RAVAnimator/Classes/Array+ObjectsOperations.swift"; sourceTree = "<group>"; };
-		4912109F20E9EB0900D78046 /* LinearValuesConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearValuesConverter.swift; sourceTree = "<group>"; };
-		491210A020E9EB0900D78046 /* ValuesConverterP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValuesConverterP.swift; sourceTree = "<group>"; };
-		491210A520E9F8AE00D78046 /* AnimationOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOperation.swift; sourceTree = "<group>"; };
-		491210A720E9FB7300D78046 /* AsynchronousOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynchronousOperation.swift; sourceTree = "<group>"; };
-		491210A920EA047E00D78046 /* QueueExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueExecutor.swift; sourceTree = "<group>"; };
-		491210AB20EA074E00D78046 /* BlockAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlockAnimation.swift; path = RAVAnimator/Classes/BlockAnimation.swift; sourceTree = "<group>"; };
-		58507F543501738068C42766EF4D35F4 /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = RAVAnimator/Classes/Animation.swift; sourceTree = "<group>"; };
-		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		470BC2C4818EDED14C4B9F640943241D /* RAVAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RAVAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4925F98595C8B64C80599A3B9427197B /* Pods_RAVAnimator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAVAnimator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5AC97B1D2A985923DDE6418C185A23CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5B9E37C4C8343E3E96DD29344D5E7575 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		602AE2524E1176C037B1AE335624FAF1 /* AsynchronousOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AsynchronousOperation.swift; sourceTree = "<group>"; };
 		646CC94D4CFFB8C8A2FA4A900779AECD /* Pods-RAVAnimator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RAVAnimator_Tests-resources.sh"; sourceTree = "<group>"; };
-		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69087A7D4CCB6F28BA45D0613804BBA3 /* Pods-RAVAnimator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RAVAnimator_Example-resources.sh"; sourceTree = "<group>"; };
 		6CC351E8E0930D721C4AF430CC342FDD /* Pods-RAVAnimator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RAVAnimator_Example-umbrella.h"; sourceTree = "<group>"; };
+		6E019E76FA96A8469751FB313BBA7BAB /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = RAVAnimator/Classes/Animator.swift; sourceTree = "<group>"; };
 		75537A9E54C1B786500AD2D09A6A1C7B /* Pods-RAVAnimator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RAVAnimator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		77E0A6156BCAF4A9BDA7FE1BE45B0951 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		787B97049A4BC0D87F309EB28E65E0CD /* Pods-RAVAnimator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RAVAnimator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		7E8BBD09339784EA51D4ADA72788E7A7 /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = RAVAnimator/Classes/Animation.swift; sourceTree = "<group>"; };
 		835D3B667BE3B64E02FBF08378D011C3 /* Pods-RAVAnimator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RAVAnimator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		8A544DEB0E17B4BA5246E3E18407594F /* Pods-RAVAnimator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RAVAnimator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		92B2B71FB68440F32F8DFFF08429BB18 /* RAVAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAVAnimator.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9517CBB7AEAE07BF141D3E5D11ACC800 /* Pods-RAVAnimator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RAVAnimator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9B5EC4510199D3EAFE6891CF4A2C294E /* RAVAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RAVAnimator.modulemap; sourceTree = "<group>"; };
-		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		9743F87CC61BEE1DF39A4CE862CA38A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		986D061AAB256ACCBA050B5F855C0A22 /* BlockAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockAnimation.swift; path = RAVAnimator/Classes/BlockAnimation.swift; sourceTree = "<group>"; };
+		9AE980603422112C340F3906D63F5CF5 /* QueueExecutor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QueueExecutor.swift; sourceTree = "<group>"; };
+		A395EC8304B6D55579194A1BB135984D /* Array+ObjectsOperations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+ObjectsOperations.swift"; path = "RAVAnimator/Classes/Array+ObjectsOperations.swift"; sourceTree = "<group>"; };
 		A6E160B4CE6967892B73844D6AB77F89 /* Pods-RAVAnimator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RAVAnimator_Tests.modulemap"; sourceTree = "<group>"; };
 		A85F3BE743851B1BB795F6E090BBC2BE /* Pods-RAVAnimator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RAVAnimator_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		AAFAEF91E6CE041DF8F07DA84EB37146 /* RAVAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAVAnimator-dummy.m"; sourceTree = "<group>"; };
 		AFE4D7A41DF199EAD46C05794B3FE30F /* Pods-RAVAnimator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RAVAnimator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B057951414739D5B57C10FF957AA8D61 /* Pods-RAVAnimator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RAVAnimator_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B53C9A8FCE492B96FA6955087928B3EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5D3B75709A92C588106B11F9A6319D7 /* RAVAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAVAnimator-umbrella.h"; sourceTree = "<group>"; };
-		B6746417A116EF95A38F7236FE0F61A8 /* RAVAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAVAnimator-prefix.pch"; sourceTree = "<group>"; };
-		B776187A4B3409D37B64C169A957E619 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CD92F8B1BF21625F06EBD30F766AE891 /* Pods-RAVAnimator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RAVAnimator_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		DE2FB5F5CFDBA83CD4D54B148A643939 /* RAVAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RAVAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		F4799F38B9E32F6B76E7BBD3AD48B546 /* Pods_RAVAnimator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAVAnimator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB902F0C9F68EBB73D86D99614F428F3 /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = RAVAnimator/Classes/Animator.swift; sourceTree = "<group>"; };
+		D18819993A81C376A0F2F9B23F50BEB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D483465EF4ECB2D6FC990A3361C6D689 /* RAVAnimator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RAVAnimator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F2CCA0D56B7CCEA1E7AE08FCA1E960F5 /* RAVAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAVAnimator-dummy.m"; sourceTree = "<group>"; };
+		F75E6DA58BBA8E8D6B462B07C4F1C9EC /* RAVAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RAVAnimator.modulemap; sourceTree = "<group>"; };
+		FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		FD07EB6DAC148BA60EC6F064DF40F45D /* Pods-RAVAnimator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RAVAnimator_Example.modulemap"; sourceTree = "<group>"; };
 		FF9631B3E7809CB4B613265FD468BAC1 /* Pods-RAVAnimator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RAVAnimator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */,
-				B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */,
-				841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */,
-				7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		26C0E5FF6DD6B441B28892935B90302A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1E677C08DA725CEB42846586D6540819 /* Foundation.framework in Frameworks */,
 				F6BABB3B5CC0207B810A10507DD03809 /* QuartzCore.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		670966A710E06B36EB130D1D6618FCC9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0090DF8BE89CAB914DD2EBA88BC16404 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,102 +110,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A4BF73262F7D51B49F0C8E2B0C3012E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2708A7DCEB92F71C7FF9EC83ABF2D607 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8D22B0D091B0427E43C82354D9CA8E06 /* iOS */,
+				978007DCB56F415BE390E0F949D4D4E5 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1FA52534C3E72D138147A5EB02BDE183 /* Products */ = {
+		512C958A25B8BDCF21CEECA9AF6C9DF4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B776187A4B3409D37B64C169A957E619 /* FBSnapshotTestCase.framework */,
-				2AA2CD30B7C0E3A0B400D70DE546D80E /* Pods_RAVAnimator_Example.framework */,
-				F4799F38B9E32F6B76E7BBD3AD48B546 /* Pods_RAVAnimator_Tests.framework */,
-				DE2FB5F5CFDBA83CD4D54B148A643939 /* RAVAnimator.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				F35791481CAFDD8E7715AE1B44687328 /* Core */,
-				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
-				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
-			);
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */,
-				7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */,
-				4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */,
-				EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */,
-				A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */,
-				67E276593855381568F725E69496F29C /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		39361673D1FA5B8ADEB85712E442E154 /* RAVAnimator */ = {
-			isa = PBXGroup;
-			children = (
-				4912109E20E9EB0900D78046 /* utils */,
-				58507F543501738068C42766EF4D35F4 /* Animation.swift */,
-				491210AB20EA074E00D78046 /* BlockAnimation.swift */,
-				FB902F0C9F68EBB73D86D99614F428F3 /* Animator.swift */,
-				4912109620E8AEB600D78046 /* Array+ObjectsOperations.swift */,
-				3EA44CDBC661433C5FABE5C5EC163D87 /* Pod */,
-				5B032A1FA5CCA798650C730FB91EE324 /* Support Files */,
-			);
-			name = RAVAnimator;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		3EA44CDBC661433C5FABE5C5EC163D87 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				77E0A6156BCAF4A9BDA7FE1BE45B0951 /* LICENSE */,
-				0FE412FE0A92966D9398C902BA424AC0 /* RAVAnimator.podspec */,
-				430F801F91BD7340A8B52A0C4D6A0238 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		4912109E20E9EB0900D78046 /* utils */ = {
-			isa = PBXGroup;
-			children = (
-				4912109F20E9EB0900D78046 /* LinearValuesConverter.swift */,
-				491210A020E9EB0900D78046 /* ValuesConverterP.swift */,
-				491210A520E9F8AE00D78046 /* AnimationOperation.swift */,
-				491210A720E9FB7300D78046 /* AsynchronousOperation.swift */,
-				491210A920EA047E00D78046 /* QueueExecutor.swift */,
-			);
-			name = utils;
-			path = RAVAnimator/Classes/utils;
-			sourceTree = "<group>";
-		};
-		5B032A1FA5CCA798650C730FB91EE324 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B53C9A8FCE492B96FA6955087928B3EF /* Info.plist */,
-				9B5EC4510199D3EAFE6891CF4A2C294E /* RAVAnimator.modulemap */,
-				0AAA3797ACA86A2CAAF37631AC9018C5 /* RAVAnimator.xcconfig */,
-				AAFAEF91E6CE041DF8F07DA84EB37146 /* RAVAnimator-dummy.m */,
-				B6746417A116EF95A38F7236FE0F61A8 /* RAVAnimator-prefix.pch */,
-				B5D3B75709A92C588106B11F9A6319D7 /* RAVAnimator-umbrella.h */,
+				9743F87CC61BEE1DF39A4CE862CA38A5 /* Info.plist */,
+				F75E6DA58BBA8E8D6B462B07C4F1C9EC /* RAVAnimator.modulemap */,
+				92B2B71FB68440F32F8DFFF08429BB18 /* RAVAnimator.xcconfig */,
+				F2CCA0D56B7CCEA1E7AE08FCA1E960F5 /* RAVAnimator-dummy.m */,
+				36F0E081965F4B283DE73FC84DC1AC5C /* RAVAnimator-prefix.pch */,
+				408F5788E61E0FAD254C99663E3243B2 /* RAVAnimator-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/RAVAnimator";
+			sourceTree = "<group>";
+		};
+		65C7ECEC6278A4F76240EDD716317EAA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5AC97B1D2A985923DDE6418C185A23CF /* LICENSE */,
+				D483465EF4ECB2D6FC990A3361C6D689 /* RAVAnimator.podspec */,
+				D18819993A81C376A0F2F9B23F50BEB0 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		6FB6331144E36D3D0E279F33507B4CBD /* Pods-RAVAnimator_Example */ = {
@@ -297,14 +171,28 @@
 			path = "Target Support Files/Pods-RAVAnimator_Example";
 			sourceTree = "<group>";
 		};
+		7125B592CF1C9B52592908ED29F12B0B /* RAVAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				7E8BBD09339784EA51D4ADA72788E7A7 /* Animation.swift */,
+				6E019E76FA96A8469751FB313BBA7BAB /* Animator.swift */,
+				A395EC8304B6D55579194A1BB135984D /* Array+ObjectsOperations.swift */,
+				986D061AAB256ACCBA050B5F855C0A22 /* BlockAnimation.swift */,
+				65C7ECEC6278A4F76240EDD716317EAA /* Pod */,
+				512C958A25B8BDCF21CEECA9AF6C9DF4 /* Support Files */,
+				ABF432DC3B410E668990184E827592C2 /* utils */,
+			);
+			name = RAVAnimator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8B86BCFCC2A42FF32C0477F88CA5AB9E /* Development Pods */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				1FA52534C3E72D138147A5EB02BDE183 /* Products */,
+				FFBAAC7216076BFE4EDFE0DC72699460 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				A380563B55B79E73472EA8B5BCA257E5 /* Products */,
 				7FB0C5C1757E9C981D7227F082FE14F8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -318,52 +206,36 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8B86BCFCC2A42FF32C0477F88CA5AB9E /* Development Pods */ = {
+		978007DCB56F415BE390E0F949D4D4E5 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				39361673D1FA5B8ADEB85712E442E154 /* RAVAnimator */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		8D22B0D091B0427E43C82354D9CA8E06 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */,
-				A27810809BAD71E4022600B21251449F /* QuartzCore.framework */,
-				AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */,
-				3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */,
+				54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */,
+				FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
+		A380563B55B79E73472EA8B5BCA257E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
+				0656012A91F50C6279E8B1EC683FC81B /* Pods_RAVAnimator_Example.framework */,
+				4925F98595C8B64C80599A3B9427197B /* Pods_RAVAnimator_Tests.framework */,
+				470BC2C4818EDED14C4B9F640943241D /* RAVAnimator.framework */,
 			);
-			name = SwiftSupport;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
+		ABF432DC3B410E668990184E827592C2 /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
-				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
-				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
-				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
-				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
-				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
-				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
-				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
-				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
-				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
-				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
-				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
-				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
-				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
+				0B5E508B3708E6EE082F368E5F775352 /* AnimationOperation.swift */,
+				602AE2524E1176C037B1AE335624FAF1 /* AsynchronousOperation.swift */,
+				20A0192861DBF7DD84DAE721B90B6479 /* LinearValuesConverter.swift */,
+				9AE980603422112C340F3906D63F5CF5 /* QueueExecutor.swift */,
+				27100BD7258B3FD4EAF1834A265A2CA0 /* ValuesConverterP.swift */,
 			);
-			name = Core;
+			name = utils;
+			path = RAVAnimator/Classes/utils;
 			sourceTree = "<group>";
 		};
 		F795078BF937E1160D1519E8D53C2997 /* Pods-RAVAnimator_Tests */ = {
@@ -384,45 +256,22 @@
 			path = "Target Support Files/Pods-RAVAnimator_Tests";
 			sourceTree = "<group>";
 		};
-		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
+		FFBAAC7216076BFE4EDFE0DC72699460 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
+				7125B592CF1C9B52592908ED29F12B0B /* RAVAnimator */,
 			);
-			name = Pods;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0039EB2FF91BAFC0DB56B76187AA36CD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90871E42E2FBF1EACF71C8AE5897632C /* Pods-RAVAnimator_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		277F0494E8D5D8208FAE143704FE0C58 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				82CEA201242579586DB51104540BDC4B /* Pods-RAVAnimator_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
-				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
-				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
-				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
-				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
-				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
-				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,26 +283,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD62CB030B97614B07F1F6B6821733EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B9BCB44435946E199E3DEA3D40D3E7 /* Pods-RAVAnimator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
-			buildPhases = (
-				E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */,
-				1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */,
-				9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = B776187A4B3409D37B64C169A957E619 /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		4378AA4A4165023712371D93F049B3D1 /* Pods-RAVAnimator_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38FA4D80AA565265179116C602127E5E /* Build configuration list for PBXNativeTarget "Pods-RAVAnimator_Example" */;
@@ -469,14 +309,14 @@
 			);
 			name = "Pods-RAVAnimator_Example";
 			productName = "Pods-RAVAnimator_Example";
-			productReference = 2AA2CD30B7C0E3A0B400D70DE546D80E /* Pods_RAVAnimator_Example.framework */;
+			productReference = 0656012A91F50C6279E8B1EC683FC81B /* Pods_RAVAnimator_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		72F4FB419C190A17197DA393FE68924B /* RAVAnimator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 132B1DF06480017575BFD631E462CF85 /* Build configuration list for PBXNativeTarget "RAVAnimator" */;
 			buildPhases = (
-				2FB2A832AB232CDC8EB6C0AD1D631ECD /* Sources */,
+				7C139DDCD7263B317B86ABD693B989E5 /* Sources */,
 				26C0E5FF6DD6B441B28892935B90302A /* Frameworks */,
 				CA493518180B336774D7BEE234AA3DFE /* Headers */,
 			);
@@ -486,26 +326,25 @@
 			);
 			name = RAVAnimator;
 			productName = RAVAnimator;
-			productReference = DE2FB5F5CFDBA83CD4D54B148A643939 /* RAVAnimator.framework */;
+			productReference = 470BC2C4818EDED14C4B9F640943241D /* RAVAnimator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8B1A539BCFEFA8AA29CB33790670D166 /* Pods-RAVAnimator_Tests */ = {
+		BE039A1506E3B1686751EAC1630A4F8B /* Pods-RAVAnimator_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6278C3CCABA7B07CDF5AFCB7610B68AC /* Build configuration list for PBXNativeTarget "Pods-RAVAnimator_Tests" */;
+			buildConfigurationList = 763EB983A961AC36F4DEF6248A953D4C /* Build configuration list for PBXNativeTarget "Pods-RAVAnimator_Tests" */;
 			buildPhases = (
-				20503CF6A4C265A9919AF10785AAA580 /* Sources */,
-				670966A710E06B36EB130D1D6618FCC9 /* Frameworks */,
-				0039EB2FF91BAFC0DB56B76187AA36CD /* Headers */,
+				9CC0186E350F5E3C37EC9BAD60BD6C61 /* Sources */,
+				A4BF73262F7D51B49F0C8E2B0C3012E5 /* Frameworks */,
+				CD62CB030B97614B07F1F6B6821733EA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F9AB4675B30ABAE081200A2F5EF7234F /* PBXTargetDependency */,
-				F3183591D3002633BEE168031EB7808E /* PBXTargetDependency */,
+				85C541CCF7BFEE2D3AF14C8D6EEFC70F /* PBXTargetDependency */,
 			);
 			name = "Pods-RAVAnimator_Tests";
 			productName = "Pods-RAVAnimator_Tests";
-			productReference = F4799F38B9E32F6B76E7BBD3AD48B546 /* Pods_RAVAnimator_Tests.framework */;
+			productReference = 4925F98595C8B64C80599A3B9427197B /* Pods_RAVAnimator_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -515,7 +354,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -525,57 +364,40 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1FA52534C3E72D138147A5EB02BDE183 /* Products */;
+			productRefGroup = A380563B55B79E73472EA8B5BCA257E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
 				4378AA4A4165023712371D93F049B3D1 /* Pods-RAVAnimator_Example */,
-				8B1A539BCFEFA8AA29CB33790670D166 /* Pods-RAVAnimator_Tests */,
+				BE039A1506E3B1686751EAC1630A4F8B /* Pods-RAVAnimator_Tests */,
 				72F4FB419C190A17197DA393FE68924B /* RAVAnimator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		20503CF6A4C265A9919AF10785AAA580 /* Sources */ = {
+		7C139DDCD7263B317B86ABD693B989E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56016FDC2BAB00FCF9907B356490EE38 /* Pods-RAVAnimator_Tests-dummy.m in Sources */,
+				E9FA1D2AD98F184252EF0B75C6608AA4 /* Animation.swift in Sources */,
+				5BC6D3C75EBFC261125EC24F8B80802F /* AnimationOperation.swift in Sources */,
+				336E6BB3DB05039AC1A539DC8D310106 /* Animator.swift in Sources */,
+				35FE6833F60E2AB8C0326D68EAADB881 /* Array+ObjectsOperations.swift in Sources */,
+				FE0C291AF3720D080A8DDDAFD0D6D8F0 /* AsynchronousOperation.swift in Sources */,
+				90B40BE8505452B3A82EADDAE66EE50B /* BlockAnimation.swift in Sources */,
+				F7EF46A8BF86D30CCCF00A16103E25FB /* LinearValuesConverter.swift in Sources */,
+				412A171267CB3B71BED853297E2E5C9A /* QueueExecutor.swift in Sources */,
+				1C5489E20C01816076737C21F8FBAE7D /* RAVAnimator-dummy.m in Sources */,
+				276986F209310DBDE18C39EBF47DB4EC /* ValuesConverterP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FB2A832AB232CDC8EB6C0AD1D631ECD /* Sources */ = {
+		9CC0186E350F5E3C37EC9BAD60BD6C61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				491210AA20EA047E00D78046 /* QueueExecutor.swift in Sources */,
-				4912109720E8AEB600D78046 /* Array+ObjectsOperations.swift in Sources */,
-				491210AC20EA074E00D78046 /* BlockAnimation.swift in Sources */,
-				491210A220E9EB0900D78046 /* ValuesConverterP.swift in Sources */,
-				B7DB30F60EE4DD11BDE8E20EB2C44405 /* Animation.swift in Sources */,
-				491210A820E9FB7300D78046 /* AsynchronousOperation.swift in Sources */,
-				80DEAEDB2A9B3258D2B065835412B02C /* Animator.swift in Sources */,
-				491210A620E9F8AE00D78046 /* AnimationOperation.swift in Sources */,
-				491210A120E9EB0900D78046 /* LinearValuesConverter.swift in Sources */,
-				BB5852608F160944EB0C6949B26F7D87 /* RAVAnimator-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
-				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
-				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
-				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
-				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
-				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
-				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
-				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
-				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
+				CAC356DED94FF774F438CDA5373B78C1 /* Pods-RAVAnimator_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,62 +412,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		85C541CCF7BFEE2D3AF14C8D6EEFC70F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RAVAnimator_Example";
+			target = 4378AA4A4165023712371D93F049B3D1 /* Pods-RAVAnimator_Example */;
+			targetProxy = AC0C21906ABC1F7118DA0706338565F8 /* PBXContainerItemProxy */;
+		};
 		B552967C59DC823886D38DFCEBA1048E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RAVAnimator;
 			target = 72F4FB419C190A17197DA393FE68924B /* RAVAnimator */;
 			targetProxy = 6365BFA34E3B52D7CEDC38F100F3E8E3 /* PBXContainerItemProxy */;
 		};
-		F3183591D3002633BEE168031EB7808E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-RAVAnimator_Example";
-			target = 4378AA4A4165023712371D93F049B3D1 /* Pods-RAVAnimator_Example */;
-			targetProxy = A519D0EA7B135FB1DEB7CC25C144B4D4 /* PBXContainerItemProxy */;
-		};
-		F9AB4675B30ABAE081200A2F5EF7234F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
-			targetProxy = B9EFD8CC8E1110ABD429CD629CA29D53 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		246CED37F175AF5E851C3839F63F9521 /* Debug */ = {
+		09D0FC834095A407C34D6EFDCD8D2F0A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4C25C5E68631F188B3B140DCCDF1035C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AAA3797ACA86A2CAAF37631AC9018C5 /* RAVAnimator.xcconfig */;
+			baseConfigurationReference = 92B2B71FB68440F32F8DFFF08429BB18 /* RAVAnimator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -667,13 +451,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		53B7927432214C4F1DDCE0D3508037FF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -710,41 +495,6 @@
 			};
 			name = Release;
 		};
-		692C8233B4553370872DFB32ADD9E94E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A9D1CB86B9F74D72094B2FEC0C58A1C /* Pods-RAVAnimator_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RAVAnimator_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RAVAnimator_Tests/Pods-RAVAnimator_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		78A2C729285C16D40ECA68497E11D195 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 787B97049A4BC0D87F309EB28E65E0CD /* Pods-RAVAnimator_Example.debug.xcconfig */;
@@ -774,6 +524,39 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8442C329AC8EAE15D9CA1F033F817EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A9D1CB86B9F74D72094B2FEC0C58A1C /* Pods-RAVAnimator_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RAVAnimator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RAVAnimator_Tests/Pods-RAVAnimator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -843,6 +626,38 @@
 			};
 			name = Debug;
 		};
+		90AEC9D031657173A614B0B87BCC5D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92B2B71FB68440F32F8DFFF08429BB18 /* RAVAnimator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RAVAnimator/RAVAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAVAnimator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RAVAnimator/RAVAnimator.modulemap";
+				PRODUCT_MODULE_NAME = RAVAnimator;
+				PRODUCT_NAME = RAVAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -897,11 +712,12 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		BDC764912EBDFE788DE9859C6E340FA7 /* Release */ = {
+		D24E95BCC49CA8D527379C8056E90871 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75537A9E54C1B786500AD2D09A6A1C7B /* Pods-RAVAnimator_Tests.release.xcconfig */;
 			buildSettings = {
@@ -928,73 +744,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E9A39A32EE3CCCA7E8A95A4ADFFA1AAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AAA3797ACA86A2CAAF37631AC9018C5 /* RAVAnimator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RAVAnimator/RAVAnimator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RAVAnimator/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RAVAnimator/RAVAnimator.modulemap";
-				PRODUCT_MODULE_NAME = RAVAnimator;
-				PRODUCT_NAME = RAVAnimator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EC2B16E08A82FFFAA496F1301724367A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1008,8 +757,8 @@
 		132B1DF06480017575BFD631E462CF85 /* Build configuration list for PBXNativeTarget "RAVAnimator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C25C5E68631F188B3B140DCCDF1035C /* Debug */,
-				E9A39A32EE3CCCA7E8A95A4ADFFA1AAC /* Release */,
+				90AEC9D031657173A614B0B87BCC5D17 /* Debug */,
+				09D0FC834095A407C34D6EFDCD8D2F0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1032,20 +781,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6278C3CCABA7B07CDF5AFCB7610B68AC /* Build configuration list for PBXNativeTarget "Pods-RAVAnimator_Tests" */ = {
+		763EB983A961AC36F4DEF6248A953D4C /* Build configuration list for PBXNativeTarget "Pods-RAVAnimator_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				692C8233B4553370872DFB32ADD9E94E /* Debug */,
-				BDC764912EBDFE788DE9859C6E340FA7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				246CED37F175AF5E851C3839F63F9521 /* Debug */,
-				EC2B16E08A82FFFAA496F1301724367A /* Release */,
+				8442C329AC8EAE15D9CA1F033F817EAA /* Debug */,
+				D24E95BCC49CA8D527379C8056E90871 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
