@@ -22,7 +22,7 @@ import QuartzCore
 	
 	@objc open func add(animation:Animation) {
 		self.checkMainThread()
-		assert(self.animations.index(of: animation) == nil, "tries twice add one animation");
+		assert(self.animations.firstIndex(of: animation) == nil, "tries twice add one animation");
 		
 		if (displayLink == nil)
 		{
@@ -51,7 +51,7 @@ import QuartzCore
 	
 	
 	func index(of animation: Animation) -> AnimationsArray.Index? {
-		let index = animations.index(of: animation)
+		let index = animations.firstIndex(of: animation)
 		return index
 	}
 	

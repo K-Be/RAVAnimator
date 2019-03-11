@@ -51,7 +51,10 @@ class ViewController: UIViewController {
 		pointConverter.destinationTo = destinationPositionView.center
 				
 		let movingAnimationOperation = AnimationOperation(withAnimation: BlockAnimation(withDuration: pointConverter.sourceMax,
-																																										animationBlock: { (time) in
+																																										animationBlock: {[weak self] (time) in
+																																											guard let self = self else {
+																																												return;
+																																											}
 																																											let position = pointConverter.convertSourceToDestination(source: time)
 																																											self.movingView.center = position
 		}),
