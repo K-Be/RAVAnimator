@@ -10,7 +10,7 @@ import Foundation
 
 extension Array where Element : Equatable {
 	internal mutating func remove(object: Element) -> Element?{
-		guard let index = self.index(of: object) else {
+		guard let index = self.firstIndex(of: object) else {
 			return nil
 		}
 		
@@ -23,7 +23,7 @@ extension Array where Element : Equatable {
 
 extension Array where Element : AnyObject {
 	internal mutating func removeIdentity(object: Element) -> Element? {
-		guard let index = self.index(where: {$0 === object}) else {
+		guard let index = self.firstIndex(where: {$0 === object}) else {
 			return nil
 		}
 		
