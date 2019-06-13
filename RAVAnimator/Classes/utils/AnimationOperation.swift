@@ -12,7 +12,7 @@ import UIKit
 	var animation : Animation
 	var animator : Animator
 	
-	public init(withAnimation animation: Animation, forAnimator animator: Animator){
+	@objc public init(withAnimation animation: Animation, forAnimator animator: Animator){
 		self.animation = animation
 		self.animator = animator
 

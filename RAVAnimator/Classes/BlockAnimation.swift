@@ -13,7 +13,7 @@ import UIKit
 	
 	var animation : AnimationBlock
 	
-	public init(withDuration duration: TimeInterval, animationBlock: @escaping AnimationBlock) {
+	@objc public init(withDuration duration: TimeInterval, animationBlock: @escaping AnimationBlock) {
 		animation = animationBlock
 		super.init(withDuration: duration)
 	}
