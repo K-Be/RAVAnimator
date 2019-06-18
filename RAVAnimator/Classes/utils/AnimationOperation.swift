@@ -40,7 +40,10 @@ import UIKit
 				self.animator.cancel(animation: self.animation)
 			}
 		}
-		
+		let selfStrong = self
 		super.cancel()
+		if (selfStrong.state == .executing) {
+			selfStrong.state = .finished;
+		}
 	}
 }
